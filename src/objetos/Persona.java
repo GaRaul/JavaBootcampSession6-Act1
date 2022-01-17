@@ -20,6 +20,8 @@ public class Persona {
 	}
 
 	public Persona(String nombre, int edad, char sexo) {
+		this.altura = 0.0;
+		this.peso = 0.0;
 		this.nombre = nombre;
 		this.edad = edad;
 		this.sexo = sexo;
