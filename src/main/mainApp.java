@@ -1,5 +1,10 @@
 package main;
 
+import objetos.Persona;
+
+/* 
+ * @author: Raul
+ * */
 public class mainApp {
 
 	public static void main(String[] args) {
@@ -15,6 +20,14 @@ public class mainApp {
 //		o Un constructor con el nombre, edad y sexo, el resto por defecto.
 //		o Un constructor con todos los atributos como parámetro.
 
+		Persona persona1 = new Persona();
+		Persona persona2 = new Persona("Raul", 22, 'H');
+		Persona persona3 = new Persona("Raul", 22,"49382375M", 'H', 1.70, 60);
+		
+		System.out.println(persona1.toString());
+		System.out.println(persona2.toString());
+		System.out.println(persona3.toString());
+		
 	}
 
 }
